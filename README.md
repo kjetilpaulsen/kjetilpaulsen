@@ -1,16 +1,110 @@
-## Hi there 👋
+# Hi, my name is Kjetil Paulsen
+Welcome to my portfolio! This collection is currently somewhat outdated, but is supposed to showcase the projects I've developed to demonstrate my skills in Python programming, software development and problem-solving. Below, you'll find a brief overview of each project with links to their respective repositories. As I have been otherwise occupied with studies, this portfolio has been put on the backburner. I have learned a lot through my studies, and realized the need for restructuring and refactoring my own code and my own projects, and as my official studies have come to an end, I will be able to further develop these repositories. I have already started some of this work but as I am continously learning, I am continously seeing room for improvements, and in a constant loop of refactoring.
 
-<!--
-**kjetilpaulsen/kjetilpaulsen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My interests lie in the intersection between software development, data analysis, mathemathics, genetic algorithms and neural networks. My main languge is Python, but I am currently trying to expand my skills in C/C++/Kotlin.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### [**neo4j-network-management-api**](https://github.com/noorac/neo4j-network-management-api)
+*This project is in an extremely early phase and significantly lacks in features*
+
+A Kotlin/Neo4j project to use the network-management example-dump from neo4j to get my feet wet with Kotlin/Neo4j/Cypher
+
+- **Features**
+  - Downloads the dump file from neo4j's github
+
+- **Skills Demonstrated**
+  - Kotlin logging
+  - Request, response, filemanagement
+  - Testing
+
+### [**Trilobite**](https://github.com/noorac/trilobite) 
+*In an effort to modularize and concretesize my apps, this repo is likely to be split into several smaller repos with distinct skills demonstrated*
+
+A Python-based financial analysis tool designed to download, store, analyze, and visualize stock market data.
+
+- **Features**:  
+  - Fetch and process financial data using the Yahoo Finance API via `yfinance`, then store data in PostgreSQL.  
+  - Tools for analyzing and visualizing trends in stock data.  
+
+- **Skills Demonstrated**:
+  - API integration (Yahoo Finance)
+  - Basic CRUD in PostgreSQL
+  - Data analysis and visualization  
+  - Python programming and modular design  
+
+---
+
+### [**Terminal Journal**](https://github.com/noorac/journal)  
+*While this program is currently functional, it lacks in abstraction and architecture. Because of newly learned skills in API between FE & BE, and abstractions, as well as understanding of databases this app is likely to get a significant refactor*
+
+A Python-based journaling application built with the `curses` library, providing a minimalist, keyboard-driven interface for writing, browsing, and managing personal entries directly in the terminal. The project focuses on low-level UI control, efficient text handling, and a distraction-free writing environment.
+
+- **Features**:  
+  - Full-screen terminal interface powered by `curses`.  
+  - Create, edit, and navigate journal entries using keyboard shortcuts.  
+  - Structured storage and retrieval of entries for long-term use.   
+
+- **Skills Demonstrated**:  
+  - Terminal UI programming with `curses`  
+  - File I/O and text processing  
+  - State management and user interaction design   
+
+---
+
+### [**Py-Sorting-Algorithms**](https://github.com/noorac/py-sorting-algorithms) 
+*This project has not been updated in a long time and does not reflect my current knowledge*
+
+A collection of sorting algorithms implemented in Python, complete with detailed comments and modular design.
+
+- **Highlights**:
+  - Includes Quick Sort, Merge Sort, Heap Sort, Shell Sort, and more.
+
+- **Skills Demonstrated**:
+  - Algorithm design
+
+---
+
+### [**Pwdgen**](https://github.com/noorac/pwdgen) 
+*This project has not been updated in a long time and does not reflect my current knowledge*
+
+A Python-based password generator that creates strong, customizable passwords. This tool is practical and I use it every time I need to create a new password.
+
+- **Features**:
+  - Adjustable length and complexity.
+  - Supports special characters, numbers, and uppercase/lowercase letters.
+- **Skills Demonstrated**:
+  - Randomization techniques
+  - User input handling
+  - Practical Python scripting
+
+---  
+
+
+### [**Psychology Practice Website**](https://gbpsicoterapia.it/en) 
+*This project is more of a sideproject to help a relative, and is not meat to demonstrate anything other than very basic knowledge of webdesign*
+
+A WordPress-based website designed for a private psychology practice, featuring custom content and an approachable design.
+
+- **Skills Demonstrated**:
+  - Website planning and design
+  - Content management with WordPress
+  - Client communication and project iteration
+
+---
+
+
+## Contact
+
+Feel free to reach out if you'd like to collaborate or discuss my work:
+- **Email**: kjetil_paulsen@hotmail.com
+- **GitHub**: [Noorac](https://github.com/noorac)
+- **LinkedIn**: [Kjetil Paulsen](https://www.linkedin.com/in/kjetil-paulsen-631110b5/)
+
+---
+
+## Future Updates
+
+This portfolio will continue to grow as I complete more projects and refine my skills. Stay tuned for additional showcases and updates!
