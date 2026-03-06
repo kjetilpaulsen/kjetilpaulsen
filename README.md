@@ -1,11 +1,20 @@
 # Hi, my name is Kjetil Paulsen
-Welcome to my portfolio! This collection is currently somewhat outdated, but is supposed to showcase the projects I've developed to demonstrate my skills in Python programming, software development and problem-solving. Below, you'll find a brief overview of each project with links to their respective repositories. As I have been otherwise occupied with studies, this portfolio has been put on the backburner. I have learned a lot through my studies, and realized the need for restructuring and refactoring my own code and my own projects, and as my official studies have come to an end, I will be able to further develop these repositories. I have already started some of this work but as I am continously learning, I am continously seeing room for improvements, and in a constant loop of refactoring.
+Welcome to my portfolio! This collection is currently somewhat outdated, but is supposed to showcase the projects I've developed to demonstrate my skills in Python programming, software development and problem-solving. Below, you'll find a brief overview of each project with links to their respective repositories. As I have been otherwise occupied with studies, this portfolio has been put on the backburner. I have learned a lot through my studies, and realized the need for restructuring and refactoring my own code and my own projects, and as my official studies have come to an end, I will be able to further develop these repositories. I have already started some of this work but as I am continously learning, I am continously seeing room for improvements, and seemingly in a constant loop of refactoring. I am in the process of streamlining logging setups, file paths, env setups, dockerization, as well as generalized CLI entrypoints across all my projects. As it often does, the design takes more time than the actual coding, and as such I am forced to direct to the old repositories for now. As the design gets fleshed out I will copy, slightly refactor, and organize the old code into the new streamlined layouts. My goal is to have the new streamlined repos up and running by mid March '26.
 
-My interests lie in the intersection between software development, data analysis, mathemathics, genetic algorithms and neural networks. My main languge is Python, but I am currently trying to expand my skills in C/C++/Kotlin.
+[Comment]: # (My interests lie in the intersection between software development, data analysis, mathemathics, genetic algorithms and neural networks. My main languge is Python, but I am currently trying to expand my skills in C/C++/.)
+
+A visualization of my thoughts for this portfolio:
+- A backend in FastAPI, ran in docker that is accessed locally through browser.
+- Several modules that can be ran independetly, locally, through cli args, but can also be ran through docker and exposed through an api.
+- The backend can then send commands to the different modules, and recieves the returns, displaying them.
+
+- This way we can attach different modules, like a password generator, journaling, stock lookup or analysis, and much more, and access it through a browser frontend.
+
+In other words, creating a framework giving you easy access to tools that you want to use. And if you want a new tool, then build it, and hook it up.
 
 ---
 
-## Featured Projects
+## Featured Projects(Not yet updated tot he new layouts and streamlines)
 
 ### [**neo4j-network-management-api**](https://github.com/noorac/neo4j-network-management-api)
 *This project is in an extremely early phase and significantly lacks in features*
