@@ -16,6 +16,26 @@ In other words, creating a framework giving you easy access to tools that you wa
 
 ## Featured Projects(Not yet updated tot he new layouts and streamlines)
 
+### [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)
+*Project is in the process of getting its README.md updated*
+
+Initially inteded as a privat repo, this is designed to be a cookiecutter starting point for python projects.
+- **Features**
+  - Logging
+  - XDG folder setuo
+  - Testing
+  - GitHub actions workflow for automatic testing and docker-image creation and push to dockerhub if pushed to release-branch
+  - Dockerfile and docker-compose
+  - Command/Event architecture
+  - CLI/FastAPI entrypoints
+
+- **Skills Demonstrated**
+  - Command/Event architecture
+  - Pytest
+  - GitHub actions
+  - Docker
+  - CI/CD
+
 ### [**neo4j-network-management-api**](https://github.com/noorac/neo4j-network-management-api)
 *This project is in an extremely early phase and significantly lacks in features*
 
