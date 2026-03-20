@@ -38,21 +38,8 @@ Initially inteded as a privat repo, this is designed to be a cookiecutter starti
   - Docker
   - CI/CD
 
-### [**neo4j-network-management-api**](https://github.com/noorac/neo4j-network-management-api)
-*This project is in an extremely early phase and significantly lacks in features*
-
-A Kotlin/Neo4j project to use the network-management example-dump from neo4j to get my feet wet with Kotlin/Neo4j/Cypher
-
-- **Features**
-  - Downloads the dump file from neo4j's github
-
-- **Skills Demonstrated**
-  - Kotlin logging
-  - Request, response, filemanagement
-  - Testing
-
-### [**Trilobite**](https://github.com/noorac/trilobite) 
-*In an effort to modularize and concretesize my apps, this repo is likely to be split into several smaller repos with distinct skills demonstrated*
+### [**market-analysis-engine**](https://github.com/kjetilpaulsen/market-analysis-engine) 
+*In an effort to modularize and concretesize my apps, this repo is an amalgamation of an earlier project migrated into [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)*
 
 A Python-based financial analysis tool designed to download, store, analyze, and visualize stock market data.
 
@@ -68,8 +55,27 @@ A Python-based financial analysis tool designed to download, store, analyze, and
 
 ---
 
-### [**Terminal Journal**](https://github.com/noorac/journal)  
-*While this program is currently functional, it lacks in abstraction and architecture. Because of newly learned skills in API between FE & BE, and abstractions, as well as understanding of databases this app is likely to get a significant refactor*
+### [**password-engine**](https://github.com/kjetilpaulsen/password-engine)
+*In an effort to modularize and concretesize my apps, this repo is an amalgamation of an earlier project migrated into [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)*
+
+A Python-based CLI and API application for secure password generation, encryption, storage, and retrieval.
+
+- **Features**:
+  - Generate strong, random passwords with configurable constraints.
+  - Authenticate users via hashed credentials to unlock encrypted password storage.
+  - Store passwords with encryption at rest, including metadata such as user, email, and tags (e.g. service or URL).
+  - Retrieve and list stored passwords through a CLI interface or API.
+
+- **Skills Demonstrated**:
+  - Secure password handling (hashing, encryption, key derivation)
+  - CLI design and user interaction flows
+  - Command/event-based architecture
+  - Database design and secure data storage
+  - Python backend development (FastAPI + modular structure)
+
+
+### [**Terminal Journal**](https://github.com/kjetilpaulsen/journal)  
+*This project is very old, has been through several iterations and migrations, and while currently functional, it lacks in abstraction, Command/Event architecture, separation of responsibilit/ownership etc. I include it here because it is a program that is dear to me and is one of the programs I use on a near daily basis.*
 
 A Python-based journaling application built with the `curses` library, providing a minimalist, keyboard-driven interface for writing, browsing, and managing personal entries directly in the terminal. The project focuses on low-level UI control, efficient text handling, and a distraction-free writing environment.
 
@@ -85,37 +91,8 @@ A Python-based journaling application built with the `curses` library, providing
 
 ---
 
-### [**Py-Sorting-Algorithms**](https://github.com/noorac/py-sorting-algorithms) 
-*This project has not been updated in a long time and does not reflect my current knowledge*
-
-A collection of sorting algorithms implemented in Python, complete with detailed comments and modular design.
-
-- **Highlights**:
-  - Includes Quick Sort, Merge Sort, Heap Sort, Shell Sort, and more.
-
-- **Skills Demonstrated**:
-  - Algorithm design
-
----
-
-### [**Pwdgen**](https://github.com/noorac/pwdgen) 
-*This project has not been updated in a long time and does not reflect my current knowledge*
-
-A Python-based password generator that creates strong, customizable passwords. This tool is practical and I use it every time I need to create a new password.
-
-- **Features**:
-  - Adjustable length and complexity.
-  - Supports special characters, numbers, and uppercase/lowercase letters.
-- **Skills Demonstrated**:
-  - Randomization techniques
-  - User input handling
-  - Practical Python scripting
-
----  
-
-
 ### [**Psychology Practice Website**](https://gbpsicoterapia.it/en) 
-*This project is more of a sideproject to help a relative, and is not meat to demonstrate anything other than very basic knowledge of webdesign*
+*This project is more of a sideproject to help a relative, and is not meant to demonstrate anything other than very basic knowledge of webdesign*
 
 A WordPress-based website designed for a private psychology practice, featuring custom content and an approachable design.
 
@@ -126,12 +103,11 @@ A WordPress-based website designed for a private psychology practice, featuring 
 
 ---
 
-
 ## Contact
 
 Feel free to reach out if you'd like to collaborate or discuss my work:
 - **Email**: kjetil_paulsen@hotmail.com
-- **GitHub**: [Noorac](https://github.com/noorac)
+- **GitHub**: [kjetilpaulsen](https://github.com/kjetilpaulsen)
 - **LinkedIn**: [Kjetil Paulsen](https://www.linkedin.com/in/kjetil-paulsen-631110b5/)
 
 ---
