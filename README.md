@@ -5,7 +5,7 @@ This collection is supposed to showcase the projects I've developed to demonstra
 
 Below, you'll find a brief overview of each project with links to their respective repositories. As I have gained new skills, and am continously doing so, I have felt a need to refactor and restructure old projects. Many of my projects are years old and as of 2026 I am in the process of migrating them into new repos, with different structures and layouts. This is being done in an effort to keep the code clean and repos organized through similar logging setup, pathing, env setups, entrypoints, dockerization, etc. The updates and migrations are happening as you are reading this, so stay tuned. Hopefully by the end of March 2026 I will have gotten things mostly up to snuff.
 
-My long term project is to create a dashboard-like weboage accessed locally through the browser, with the ability to easily hook up new microservices. 
+My long term project is to create a dashboard-like webpage accessed locally through the browser, with the ability to easily hook up new microservices. 
 - A backend in FastAPI, ran in docker that is accessed locally through browser.
 - Several modules that can be run independetly, locally or through docker, exposed through CLI or API.
 - User sends a command to the API, it is then sent to the relevant app, event is returned and displayed to the user.
@@ -37,6 +37,8 @@ Initially inteded as a privat repo, this is designed to be a cookiecutter starti
   - GitHub actions
   - Docker
   - CI/CD
+
+---
 
 ### [**market-analysis-engine**](https://github.com/kjetilpaulsen/market-analysis-engine) 
 *In an effort to modularize and concretesize my apps, this repo is an amalgamation of an earlier project migrated into [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)*
@@ -73,6 +75,27 @@ A Python-based CLI and API application for secure password generation, encryptio
   - Database design and secure data storage
   - Python backend development (FastAPI + modular structure)
 
+---
+
+### [**log-event-pipeline**](https://github.com/kjetilpaulsen/log-event-pipeline)
+*First project using several new languages, this project is heavily backed by AI-assisted programming.*
+
+A lightweight multi-language system demonstrating real-time log ingestion, filtering, and streaming using a decoupled pipeline architecture. A distributed log processing pipeline combining Python, Go, and a minimal frontend to generate, transport, filter, and visualize log events in real time.
+
+- **Features**:
+  - Python-based log generator that produces structured JSON events and streams them over TCP.
+  - Go backend that ingests log events, filters high-severity logs (ERROR/CRITICAL), and broadcasts them to connected clients.
+  - Real-time streaming to frontend clients using Server-Sent Events (SSE).
+  - Minimal web interface for visualizing incoming error events live in the browser.
+
+- **Skills Demonstrated**:
+  - Network programming (TCP sockets, HTTP, SSE)
+  - Concurrent systems in Go (goroutines, channels, synchronization)
+  - Structured logging and event-driven design
+  - Cross-language system integration (Python → Go → Web)
+  - Real-time data streaming and frontend integration
+ 
+---
 
 ### [**Terminal Journal**](https://github.com/kjetilpaulsen/journal)  
 *This project is very old, has been through several iterations and migrations, and while currently functional, it lacks in abstraction, Command/Event architecture, separation of responsibilit/ownership etc. I include it here because it is a program that is dear to me and is one of the programs I use on a near daily basis.*
