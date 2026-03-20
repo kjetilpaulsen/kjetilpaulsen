@@ -1,14 +1,14 @@
 # Hi, my name is Kjetil Paulsen
-Welcome to my portfolio! This collection is supposed to showcase the projects I've developed to demonstrate my skills software development and problem-solving. I mostly program in Python but I have in the past also progrmamed in C and C++. For the moment I am also imrpoving my skills in Javascript and Go.
+Welcome to my portfolio! 
+
+This collection is supposed to showcase the projects I've developed to demonstrate my skills software development and problem-solving. I mostly program in Python but I have in the past also progrmamed in C and C++. For the moment I am also imrpoving my skills in Javascript and Go.
 
 Below, you'll find a brief overview of each project with links to their respective repositories. As I have gained new skills, and am continously doing so, I have felt a need to refactor and restructure old projects. Many of my projects are years old and as of 2026 I am in the process of migrating them into new repos, with different structures and layouts. This is being done in an effort to keep the code clean and repos organized through similar logging setup, pathing, env setups, entrypoints, dockerization, etc. The updates and migrations are happening as you are reading this, so stay tuned. Hopefully by the end of March 2026 I will have gotten things mostly up to snuff.
 
-[Comment]: # (My interests lie in the intersection between software development, data analysis, mathemathics, genetic algorithms and neural networks. My main languge is Python, but I am currently trying to expand my skills in C/C++/.)
-
-A visualization of my thoughts for this portfolio:
+My long term project is to create a dashboard-like weboage accessed locally through the browser, with the ability to easily hook up new microservices. 
 - A backend in FastAPI, ran in docker that is accessed locally through browser.
-- Several modules that can be ran independetly, locally, through cli args, but can also be ran through docker and exposed through an api.
-- The backend can then send commands to the different modules, and recieves the returns, displaying them.
+- Several modules that can be run independetly, locally or through docker, exposed through CLI or API.
+- User sends a command to the API, it is then sent to the relevant app, event is returned and displayed to the user.
 
 - This way we can attach different modules, like a password generator, journaling, stock lookup or analysis, and much more, and access it through a browser frontend.
 
