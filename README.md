@@ -17,10 +17,10 @@ In other words, creating a framework giving you easy access to tools that you wa
 ---
 
 ## Featured Projects:
-*(most projects are in the process of getting their README.md and DOCS updated. Due to code migrations and amalgamations my first goal was to get the initial version running without significant bugs)*
+*Some projects are in a migration state where they older iterations are being migrated and amalgamated into the structure of [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). As a result not all functionality has been fully migrated and implemented correctly.*
 
 ### [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)
-*Project is in the process of getting its README.md updated*
+*Project is currently being hardened and polished, but the main structure is completed*
 
 Initially inteded as a privat repo, this is designed to be a cookiecutter starting point for python projects.
 - **Features**
@@ -42,7 +42,7 @@ Initially inteded as a privat repo, this is designed to be a cookiecutter starti
 ---
 
 ### [**market-analysis-engine**](https://github.com/kjetilpaulsen/market-analysis-engine) 
-*In an effort to modularize and concretesize my apps, this repo is an amalgamation of an earlier project migrated into [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)*
+*Currently being migrated and amalgamated using [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). Baseline structure is done. Missing hardening, polish and some analysis tools*
 
 A Python-based financial analysis tool designed to download, store, analyze, and visualize stock market data.
 
@@ -59,7 +59,7 @@ A Python-based financial analysis tool designed to download, store, analyze, and
 ---
 
 ### [**password-engine**](https://github.com/kjetilpaulsen/password-engine)
-*In an effort to modularize and concretesize my apps, this repo is an amalgamation of an earlier project migrated into [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)*
+*Currently being migrated and amalgamated using [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). Baseline structure is done. Missing hardening, polish and proper Command/Event structure for certain Commands*
 
 A Python-based CLI and API application for secure password generation, encryption, storage, and retrieval.
 
