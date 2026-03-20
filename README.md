@@ -16,7 +16,7 @@ In other words, creating a framework giving you easy access to tools that you wa
 
 ---
 
-## Featured Projects(Not yet updated tot he new layouts and streamlines)
+## Featured Projects:
 
 ### [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)
 *Project is in the process of getting its README.md updated*
