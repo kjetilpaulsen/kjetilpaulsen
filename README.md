@@ -17,7 +17,7 @@ In other words, creating a framework giving you easy access to tools that you wa
 ---
 
 ## Featured Projects:
-*(most projects are in the process of getting their README.md and DOCS updated. Due to migrations my first goal was to get the initial version up and running)*
+*(most projects are in the process of getting their README.md and DOCS updated. Due to migrations my first goal was to get the initial version running without significant bugs)*
 
 ### [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)
 *Project is in the process of getting its README.md updated*
