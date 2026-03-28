@@ -5,19 +5,10 @@ This collection is supposed to showcase the projects I've developed to demonstra
 
 Below, you'll find a brief overview of each project with links to their respective repositories. As I have gained new skills, and am continously doing so, I have felt a need to refactor and restructure old projects. Many of my projects are years old and as of 2026 I am in the process of migrating them into new repos, with different structures and layouts. This is being done in an effort to keep the code clean and repos organized through similar logging setup, pathing, env setups, entrypoints, dockerization, etc. The updates and migrations are happening continously.
 
-My long term project is to create a dashboard-like webpage accessed locally through the browser, with the ability to easily hook up new microservices. 
-- A backend in FastAPI, ran in docker that is accessed locally through browser.
-- Several modules that can be run independetly, locally or through docker, exposed through CLI or API.
-- User sends a command to the API, it is then sent to the relevant app, event is returned and displayed to the user.
-
-- This way we can attach different modules, like a password generator, journaling, stock lookup or analysis, and much more, and access it through a browser frontend.
-
-In other words, creating a framework giving you easy access to tools that you want to use. And if you want a new tool, then build it, and hook it up.
-
 ---
 
 ## Featured Projects:
-*Some projects are in a migration state where they older iterations are being migrated and amalgamated into the structure of [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). As a result not all functionality has been fully migrated and implemented correctly.*
+*Some projects are in a migration state where their older iterations are being migrated and amalgamated into the structure of [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). As a result not all functionality has been fully migrated and implemented correctly.*
 
 ### [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint)
 *Project is currently being hardened and polished, but the main structure is completed*
@@ -79,7 +70,7 @@ A Python-based CLI and API application for secure password generation, encryptio
 ---
 
 ### [**log-event-pipeline**](https://github.com/kjetilpaulsen/log-event-pipeline)
-*First project using several new languages, this project is heavily backed by AI-assisted programming.*
+*First project using several new languages, this project is backed by AI-assisted programming.*
 
 A lightweight multi-language system demonstrating real-time log ingestion, filtering, and streaming using a decoupled pipeline architecture. A distributed log processing pipeline combining Python, Go, and a minimal frontend to generate, transport, filter, and visualize log events in real time.
 
