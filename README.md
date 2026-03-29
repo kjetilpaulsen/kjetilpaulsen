@@ -50,7 +50,7 @@ A Python-based financial analysis tool designed to download, store, analyze, and
 ---
 
 ### [**password-engine**](https://github.com/kjetilpaulsen/password-engine)
-*Currently being migrated and amalgamated using [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). Baseline structure is done. Missing hardening, polish and proper Command/Event structure for certain Commands*
+*Currently being migrated and amalgamated using [**python-project-blueprint**](https://github.com/kjetilpaulsen/python-project-blueprint). Baseline structure is done. Missing hardening, polish, password updates*
 
 A Python-based CLI and API application for secure password generation, encryption, storage, and retrieval.
 
